@@ -6,7 +6,7 @@ pool:
 
 steps:
  - task: Ansible@0
-    inputs:
+   inputs:
       ansibleInterface: 'remoteMachine'
       connectionOverSsh: 'SSH - Ansible VM'
       playbookSourceRemoteMachine: 'agentMachine'
